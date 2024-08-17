@@ -1,5 +1,3 @@
-
-
 @app.route('/tasks/<int:id>', methods=['PUT'])
 def update_task(id):
     task = find_task(id)
